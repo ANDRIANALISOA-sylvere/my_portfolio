@@ -1,13 +1,16 @@
 /*
   color :
  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body
 {
   background-color: #1c2330;
   color : white;
+  font-family: "Montserrat", sans-serif;
 }
 
+/*
 .brand
 {
   font-family: 'lucida handwriting' ,'sans-serif';
@@ -17,7 +20,7 @@ body
 {
   font-family: 'Bahnschrift','sans-serif';
 }
-
+*/
 .status
 {
   color: #afbbd0;
