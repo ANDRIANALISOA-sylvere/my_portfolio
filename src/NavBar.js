@@ -8,16 +8,16 @@ const NavBar = () => {
             </div>
             <div>
                 <ul className="flex justify-between md:gap-4 mr-3 font-medium">
-                    <li className="mr-5 md:mr-0">
+                    <li className="mr-5 md:mr-0 navlink">
                         Home
                     </li>
-                    <li className="mr-5 md:mr-0">
+                    <li className="mr-5 md:mr-0 navlink">
                         Skills
                     </li>
-                    <li className="mr-5 md:mr-0">
+                    <li className="mr-5 md:mr-0 navlink">
                         Work
                     </li>
-                    <li>
+                    <li className="navlink">
                         Contact
                     </li>
                 </ul>

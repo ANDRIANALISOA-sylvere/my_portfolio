@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navlink:hover
+{
+    @apply border-b border-b-pink-500 cursor-pointer;
+}
