@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.navlink:hover
+.navlink:hover {
+  @apply border-b border-b-pink-500 cursor-pointer;
+}
+.badge {
+  @apply ring-2 ring-pink-500 outline-none rounded-full px-4 m-1 flex-wrap text-center;
+}
+.tech {
+  @apply cursor-pointer transition ease-out duration-700;
+}
+.tech:hover
 {
-    @apply border-b border-b-pink-500 cursor-pointer;
+  @apply scale-125;
 }
