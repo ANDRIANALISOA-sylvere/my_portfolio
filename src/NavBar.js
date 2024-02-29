@@ -1,5 +1,4 @@
 import React from 'react';
-
 const NavBar = () => {
     return (
         <nav className="flex justify-between items-center container mx-auto mt-2">
