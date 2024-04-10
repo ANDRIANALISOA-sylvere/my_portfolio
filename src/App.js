@@ -5,6 +5,7 @@ import Header from "./Header";
 import About from "./About";
 import Tech from './Tech';
 import Work from './Work';
+import Contact from './Contact';
 function App() {
     return (
         <div>
@@ -13,6 +14,7 @@ function App() {
             <About></About>
             <Tech></Tech>
             <Work></Work>
+            <Contact></Contact>
         </div>
     )
 }
