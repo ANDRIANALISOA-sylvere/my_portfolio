@@ -7,7 +7,6 @@ import bootstrapIcone from "./images/bootstrap-5-logo-icon.svg";
 import laravel from "./images/laravel-1.svg";
 import reactIcone from "./images/react-2.svg";
 import nodejs from "./images/nodejs-new-pantone-white.svg";
-import express from "./images/Expressjs.webp";
 
 function Tech() {
   return (
