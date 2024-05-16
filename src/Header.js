@@ -15,9 +15,7 @@ const Header = () => {
         </h1>
         <br />
         <p className="text-md opacity-70">
-          I'm a full stack developer specializing in building exceptional
-          digital experiences. <br /> Currently, I'm focused on building
-          responsive full-stack web applications.
+          I'm a full stack developer passionate about web development.<br />  Presently, my focus lies in mastering TypeScript for even greater versatility and proficiency.
         </p>
         <button className="mt-5 ring-2 hover:bg-pink-500 hover:ring-2 hover:ring-pink-500 ring-white px-4 py-2 outline-none transition ease-out duration-500 flex justify-around items-center gap-2">
           <FaDownload />

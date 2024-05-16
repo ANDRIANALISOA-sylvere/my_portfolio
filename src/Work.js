@@ -8,6 +8,9 @@ function Work() {
           Work
         </h1>
       </div>
+      <div>
+        
+      </div>
     </div>
   );
 }
