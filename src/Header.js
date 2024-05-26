@@ -2,6 +2,15 @@ import React from "react";
 import { FaDownload } from "react-icons/fa6";
 
 const Header = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "";
+    link.download = "CV_Josephin_Sylvere.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="text-center md:text-left md:grid md:grid-cols-4 header">
       <div></div>
@@ -15,9 +24,14 @@ const Header = () => {
         </h1>
         <br />
         <p className="text-md opacity-70">
-          I'm a full stack developer passionate about web development.<br />  Presently, my focus lies in mastering TypeScript for even greater versatility and proficiency.
+          I'm a full stack developer passionate about web development.
+          <br /> Presently, my focus lies in mastering TypeScript for even
+          greater versatility and proficiency.
         </p>
-        <button className="mt-5 ring-2 hover:bg-pink-500 hover:ring-2 hover:ring-pink-500 ring-white px-4 py-2 outline-none transition ease-out duration-500 flex justify-around items-center gap-2">
+        <button
+          onClick={handleDownload}
+          className="mt-5 ring-2 hover:bg-pink-500 hover:ring-2 hover:ring-pink-500 ring-white px-4 py-2 outline-none transition ease-out duration-500 flex justify-around items-center gap-2"
+        >
           <FaDownload />
           Download my resume
         </button>
