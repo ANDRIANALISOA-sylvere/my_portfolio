@@ -26,7 +26,8 @@ const Header = () => {
         <br />
         <p className="text-sm opacity-70">
           I am a passionate full stack developer focused on web development.
-          <br /> Currently, I am focusing on mastering TypeScript for even more versatility and skill.
+          <br /> Currently, I am focusing on mastering TypeScript for even more
+          versatility and skill.
         </p>
         <button
           onClick={handleDownload}
