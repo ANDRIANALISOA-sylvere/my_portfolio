@@ -16,25 +16,24 @@ const Header = () => {
   return (
     <div className="container mx-auto md:grid md:grid-cols-2 header">
       <div className="pt-32 text-left pl-5 md:col-span-1">
-        <p className="text-pink-500 text-sm">Hello, my name is</p>
+        <p className="text-pink-500 text-sm">Bonjour, je m'appelle</p>
         <h1 className="nom text-4xl md:text-5xl font-medium prenom mb-5 md:mb-0">
           Joséphin Sylvère
         </h1>
         <h1 className="nom text-4xl md:text-5xl font-medium status">
-          I am a Full Stack Developer.
+          Je suis un développeur Full Stack.
         </h1>
         <br />
         <p className="text-sm opacity-70">
-          I am a passionate full stack developer focused on web development.
-          <br /> Currently, I am focusing on mastering TypeScript for even more
-          versatility and skill.
+          Je suis un développeur full stack passionné, spécialisé dans le développement web.
+          <br /> Actuellement, je me concentre sur la maîtrise de TypeScript pour encore plus de polyvalence et de compétences.
         </p>
         <button
           onClick={handleDownload}
           className="mt-5 ring-2 hover:bg-pink-500 hover:ring-2 hover:ring-pink-500 ring-white px-4 py-2 outline-none transition ease-out duration-500 flex justify-around items-center gap-2"
         >
           <FaDownload />
-          Download my CV
+          Téléchargez mon CV
         </button>
       </div>
       <div
@@ -51,7 +50,8 @@ const Header = () => {
       >
         <img
           src={avatar}
-          alt="Joséphin Sylvère's Avatar"
+          alt="Avatar de Joséphin Sylvère"
+          className="hidden md:block"
           style={{
             width: "350px",
             height: "350px",
