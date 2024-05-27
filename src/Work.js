@@ -1,8 +1,9 @@
 import React from "react";
+import avatar from "./images/1716149903524.jfif";
 
 const projects = [
   {
-    src: "chemin/vers/image-projet.jpg",
+    src: avatar,
     alt: "Gestion de ventes des pièces de véhicule",
     title: "Gestion de ventes des pièces de véhicule",
     description:
@@ -10,7 +11,7 @@ const projects = [
     badges: ["React", "Bootstrap", "Node.js", "Express.js", "Mysql"],
   },
   {
-    src: "chemin/vers/image-projet.jpg",
+    src: avatar,
     alt: "Gestion des archives",
     title: "Gestion des archives",
     description:
@@ -21,26 +22,33 @@ const projects = [
 
 function Work() {
   return (
-    <div className="container mx-auto px-10">
-      <div className="flex justify-center mt-32">
-        <h1 className="nom m-5 text-3xl font-medium border-b border-pink-500">
+    <div className="container mx-auto px-4 sm:px-10">
+      <div className="flex justify-center mt-10 sm:mt-32">
+        <h1 className="nom m-3 sm:m-5 text-xl sm:text-3xl font-medium border-b border-pink-500">
           Projets
         </h1>
       </div>
       {projects.map((project, index) => (
-        <div key={index} className="flex justify-around items-center mt-10">
-          <img src={project.src} alt={project.alt} className="w-1/2 mr-52" />
-          <div>
-            <h2 className="text-2xl font-bold">{project.title}</h2>
+        <div
+          key={index}
+          className="flex flex-col sm:flex-row justify-around items-center mt-5 sm:mt-10"
+        >
+          <img
+            src={project.src}
+            alt={project.alt}
+            className="w-full h-64 sm:w-1/2 mb-4 sm:mb-0 sm:mr-10"
+          />
+          <div className="pl-4 sm:pl-12">
+            <h2 className="text-lg sm:text-2xl font-bold">{project.title}</h2>
             <p
-              className="text-md mt-2"
+              className="text-base sm:text-md mt-1 sm:mt-2"
               style={{ opacity: 0.5, cursor: "default" }}
               onMouseEnter={(e) => (e.currentTarget.style.opacity = 1)}
               onMouseLeave={(e) => (e.currentTarget.style.opacity = 0.5)}
             >
               {project.description}
             </p>
-            <div className="flex mt-3">
+            <div className="flex mt-2 sm:mt-3">
               {project.badges.map((badge, badgeIndex) => (
                 <span key={badgeIndex} className="badge">
                   {badge}

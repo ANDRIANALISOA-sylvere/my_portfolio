@@ -8,12 +8,12 @@ function Contact() {
   return (
     <div className="mb-20">
       <div className="flex justify-center mt-32">
-        <h1 className="nom m-5 text-3xl  font-medium  border-b border-pink-500">
+        <h1 className="nom m-5 text-3xl font-medium border-b border-pink-500">
           Contact
         </h1>
       </div>
-      <div className="flex justify-around mt-5">
-        <div className="flex justify-center items-center gap-5">
+      <div className="flex flex-col md:flex-row justify-around mt-5">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5 mb-5 md:mb-0">
           <div className="">
             <i>
               <MdEmail />
@@ -25,7 +25,7 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-5">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5 mb-5 md:mb-0">
           <div className="">
             <i>
               <AiFillLinkedin />
@@ -37,7 +37,7 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-5">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5 mb-5 md:mb-0">
           <div className="">
             <i>
               <FaFacebook />
@@ -49,7 +49,7 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-5">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5">
           <div className="">
             <i>
               <AiFillGithub />

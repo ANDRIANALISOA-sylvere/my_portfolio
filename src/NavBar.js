@@ -10,7 +10,7 @@ const NavBar = () => {
         </span>
       </div>
       <div>
-        <ul className="flex justify-between md:gap-4 mr-3 font-medium">
+        <ul className="hidden md:flex justify-between md:gap-4 mr-3 font-medium">
           <li className="mr-5 md:mr-0 navlink">
             <Link to="header" smooth={true} duration={900}>
               Accueil
