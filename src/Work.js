@@ -1,9 +1,11 @@
 import React from "react";
 import avatar from "./images/1716149903524.jfif";
+import vente from './images/Gestion de vente des pièces de véhicules.png'
+import archive from './images/React App.png'
 
 const projects = [
   {
-    src: avatar,
+    src: vente,
     alt: "Gestion de ventes des pièces de véhicule",
     title: "Gestion de ventes des pièces de véhicule",
     description:
@@ -11,7 +13,7 @@ const projects = [
     badges: ["React", "Bootstrap", "Node.js", "Express.js", "Mysql"],
   },
   {
-    src: avatar,
+    src: archive,
     alt: "Gestion des archives",
     title: "Gestion des archives",
     description:
