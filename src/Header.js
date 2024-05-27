@@ -4,8 +4,9 @@ import { FaDownload } from "react-icons/fa6";
 const Header = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "";
+    link.href = "https://josephin-sylvere.vercel.app/CV.pdf";
     link.download = "CV_Josephin_Sylvere.pdf";
+    link.target = "_blank"; // Ajout de target blank
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
