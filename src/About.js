@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="mt-5 md:mt-0 ms-2 md:ms-10 pr-1 md:ps-2 md:pr-32 text-center md:text-justify ">
           <h1>
-            Passionné par le développement de solutions web innovantes, je m'efforce d'améliorer l'expérience utilisateur à travers des applications performantes et intuitives. Spécialisé en développement Full Stack, je collabore avec des startups ainsi que des grandes entreprises pour transformer leurs idées en réalité digitale. Imaginez les possibilités avec un développeur Full Stack dédié à votre projet.
+            Passionné par le développement de solutions web innovantes, je m'efforce d'améliorer l'expérience utilisateur à travers des applications performantes et intuitives. En tant qu'étudiant spécialisé en développement Full Stack, je suis dédié à transformer les idées en réalité digitale. Imaginez les possibilités avec un développeur Full Stack engagé dans votre projet.
           </h1>
         </div>
       </div>
