@@ -1,5 +1,4 @@
 import React from "react";
-import avatar from "./images/1716149903524.jfif";
 import vente from './images/Gestion de vente des pièces de véhicules.png'
 import archive from './images/React App.png'
 
