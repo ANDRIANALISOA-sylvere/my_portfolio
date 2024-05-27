@@ -20,7 +20,9 @@ function Contact() {
             </i>
           </div>
           <div className="">
-            <span>josephinsylvere@gmail.com</span>
+            <a href="mailto:josephinsylvere@gmail.com" className="hover:text-pink-500">
+              josephinsylvere@gmail.com
+            </a>
           </div>
         </div>
         <div className="flex justify-center items-center gap-5">
@@ -30,7 +32,9 @@ function Contact() {
             </i>
           </div>
           <div className="">
-            <span>ANDRIANALISOA Joséphin Sylvère</span>
+            <a href="https://www.linkedin.com/in/josephin-sylvere" className="hover:text-pink-500">
+              ANDRIANALISOA Joséphin Sylvère
+            </a>
           </div>
         </div>
         <div className="flex justify-center items-center gap-5">
@@ -40,7 +44,9 @@ function Contact() {
             </i>
           </div>
           <div className="">
-            <span>ANDRIANALISOA Joséphin Sylvère</span>
+            <a href="https://www.facebook.com/profile.php?id=100094686108117" className="hover:text-pink-500">
+              ANDRIANALISOA Joséphin Sylvère
+            </a>
           </div>
         </div>
         <div className="flex justify-center items-center gap-5">
@@ -50,7 +56,9 @@ function Contact() {
             </i>
           </div>
           <div className="">
-            <span>ANDRIANALISOA-sylvere</span>
+            <a href="https://github.com/ANDRIANALISOA-sylvere" className="hover:text-pink-500">
+              ANDRIANALISOA-sylvere
+            </a>
           </div>
         </div>
       </div>
