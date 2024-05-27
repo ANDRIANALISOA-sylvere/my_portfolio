@@ -24,7 +24,7 @@ const Header = () => {
           Je suis un développeur Full Stack.
         </h1>
         <br />
-        <p className="text-sm md:text-2xl opacity-70">
+        <p className="text-sm md:text-md opacity-70">
           Je suis un développeur full stack passionné, spécialisé dans le
           développement web.
           <br /> Actuellement, je me concentre sur la maîtrise de TypeScript
