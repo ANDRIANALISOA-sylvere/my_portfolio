@@ -1,3 +1,4 @@
+import { AiOutlineTwitter } from "react-icons/ai"; 
 import { AiFillGithub } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -58,6 +59,18 @@ function Contact() {
           <div className="">
             <a href="https://github.com/ANDRIANALISOA-sylvere" className="hover:text-pink-500">
               ANDRIANALISOA-sylvere
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-5">
+          <div className="">
+            <i>
+              <AiOutlineTwitter />
+            </i>
+          </div>
+          <div className="">
+            <a href="https://x.com/sylverejosephin" className="hover:text-pink-500">
+            @sylverejosephin
             </a>
           </div>
         </div>
