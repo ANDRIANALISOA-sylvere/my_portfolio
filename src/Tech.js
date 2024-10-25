@@ -11,6 +11,8 @@ import reactIcone from "./images/react-2.svg";
 import nodejs from "./images/nodejs-new-pantone-white.svg";
 import express from "./images/Expressjs-nodejs.webp";
 import php from "./images/58481791cef1014c0b5e4994.webp";
+import nest from "./images/nest.png";
+import next from "./images/next.png";
 
 function Tech() {
   const techImages = [
@@ -25,6 +27,8 @@ function Tech() {
     { src: laravel, label: "Laravel" },
     { src: nodejs, label: "Node.js" },
     { src: express, label: "Express.js" },
+    { src: nest, label: "Nest.js" },
+    { src: next, label: "Next.js" },
   ];
 
   return (
@@ -40,7 +44,7 @@ function Tech() {
             key={`tech-${index}`}
             src={tech.src}
             alt={tech.label}
-            style={{ height: "40px", marginRight: "50px" }}
+            style={{ height: "50px", marginRight: "50px" }}
           />
         ))}
       </Marquee>
