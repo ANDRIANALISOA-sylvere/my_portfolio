@@ -37,7 +37,7 @@ function Work() {
           <img
             src={project.src}
             alt={project.alt}
-            className="w-full h-64 sm:w-1/2 mb-4 sm:mb-0 sm:mr-10"
+            className="w-full h-64 sm:w-full mb-4 sm:mb-0 sm:mr-10"
           />
           <div className="pl-4 sm:pl-12">
             <h2 className="text-lg sm:text-2xl font-bold">{project.title}</h2>
